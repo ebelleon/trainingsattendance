@@ -9,5 +9,5 @@ edition = "2018"
 [dependencies]
 maud = { version = "0.21", features = ["rocket"] }
 rocket = "0.4"
-diesel = { version = "1.4", features = ["sqlite"] }
+diesel = { version = "2.0", features = ["sqlite"] }
 dotenv = "0.14"
